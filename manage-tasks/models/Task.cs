@@ -1,12 +1,13 @@
 class Task
 {
-    
+    // Attributes
     private int id;
     private string title;
     private string description;
     private DateTime dateCreated;
     private DateTime? dateFinished;
 
+    // Getters and Setters
     public int Id
     {
         get { return id; }
@@ -37,6 +38,7 @@ class Task
         set { dateFinished = value; }
     }
 
+    // Constructor
     public Task(int id, string title, string description, DateTime dateCreated, DateTime? dateFinished = null)
     {
         this.id = id;
@@ -45,5 +47,6 @@ class Task
         this.dateCreated = dateCreated;
         this.dateFinished = dateFinished;
     }
+
 
 }
