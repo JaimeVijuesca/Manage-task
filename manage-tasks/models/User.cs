@@ -1,4 +1,5 @@
 namespace GestorTareas.Models;
+namespace GestorTareas.Models;
 
 class User
 {
