@@ -1,3 +1,5 @@
+namespace GestorTareas.Models;
+
 class Task
 {
     // Attributes

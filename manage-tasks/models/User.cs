@@ -1,3 +1,5 @@
+namespace GestorTareas.Models;
+
 class User
 {
     private string userId;

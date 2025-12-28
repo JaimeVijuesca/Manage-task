@@ -1,3 +1,5 @@
+namespace GestorTareas.Models;
+
 public enum State
 {
     ToDo,
