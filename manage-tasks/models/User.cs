@@ -1,4 +1,4 @@
-class User
+public class User
 {
     private string userId;
     private string userName;
