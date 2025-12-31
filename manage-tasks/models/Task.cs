@@ -1,6 +1,6 @@
 namespace GestorTareas.Models;
 
-class Task
+public class Task
 {
     // Attributes
     private int id;

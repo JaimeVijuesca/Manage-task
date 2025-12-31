@@ -1,7 +1,7 @@
 namespace GestorTareas.Models;
-namespace GestorTareas.Models;
 
-class User
+
+public class User
 {
     private string userId;
     private string userName;
