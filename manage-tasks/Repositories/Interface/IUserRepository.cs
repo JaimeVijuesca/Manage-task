@@ -1,5 +1,5 @@
 namespace GestorTareas.Repositories;
-using GestorTareas.Models;
+
 
 public interface IUserRepository
 {

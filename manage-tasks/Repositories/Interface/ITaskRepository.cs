@@ -1,6 +1,6 @@
 namespace GestorTareas.Repositories;
 
-using GestorTareas.Models;
+
 
 public interface ITaskRepository
 {
