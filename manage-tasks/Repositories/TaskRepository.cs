@@ -22,22 +22,19 @@ public class TaskRepository : ITaskRepository
         throw new NotImplementedException();
     }
 
-    public List<Models.Task> GetAll()
-    {
-        throw new NotImplementedException();
-    }
-
-    public Models.Task? GetById(int id)
-    {
-        throw new NotImplementedException();
-    }
-
+   
     public void Update(Task task)
     {
         throw new NotImplementedException();
     }
 
-    public void Update(Models.Task task)
+  
+    List<Task> ITaskRepository.GetAll()
+    {
+        throw new NotImplementedException();
+    }
+
+    Task? ITaskRepository.GetById(int id)
     {
         throw new NotImplementedException();
     }

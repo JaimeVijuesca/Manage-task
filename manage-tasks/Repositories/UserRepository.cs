@@ -1,4 +1,8 @@
+using GestorTareas.Models;
+
 namespace GestorTareas.Repositories;
+
+
 
 public class UserRepository : IUserRepository
 {
