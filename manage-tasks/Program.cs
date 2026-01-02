@@ -1,4 +1,6 @@
-﻿bool isRunning = true;
+﻿using GestorTareas.Menu;
+
+bool isRunning = true;
 
 do
 {
@@ -11,8 +13,7 @@ do
 
     // TryParse check is not and int
 
-    if (!int.TryParse(Console.ReadLine(), out int option))
-    {
+    if (!int.TryParse(Console.ReadLine(), out int option))    {
         Console.WriteLine("Invalid input. Please enter a number.");
         Console.ReadKey();
         continue;
@@ -21,7 +22,7 @@ do
     switch (option)
     {
         case 1:
-            Console.WriteLine("Manage Tasks");
+            new menuTask().Run();
             break;
 
         case 2:
