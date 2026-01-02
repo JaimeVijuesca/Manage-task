@@ -26,7 +26,7 @@ do
             break;
 
         case 2:
-            Console.WriteLine("Manage Users");
+            new menuUser().Run();
             break;
 
         case 3:
